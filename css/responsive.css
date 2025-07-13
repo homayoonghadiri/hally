@@ -1,0 +1,146 @@
+/* responsive */
+@media screen and (max-width: 767px) {
+	header{
+		margin-bottom: 8vh;
+	}
+
+    header #menu .navbar-nav .nav-item .nav-link{
+        display: inline-block;
+    }
+
+	#nav-hamburger #hamLinks {
+        margin-top: 60px;
+    }
+
+	#nav-hamburger a.icon {
+        right: 41%;
+        top: 30px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1330px) {
+    #posts .separate_post{
+        width: 50%;
+        flex-grow: 2;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 899px) {
+    #posts .separate_post{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 1199px) {
+    #categories .button1{
+        width: 100px;
+        font-size: 12px;
+    }
+
+    #categories form input{
+        width: 150px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #categories .button1{
+        width: 80px;
+        font-size: 10px;
+    }
+
+    #categories form input{
+        width: 120px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    #categories .cat_item{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+	header{
+		padding: 8px 0;
+	}
+
+	#nav-hamburger #hamLinks {
+        display: none;
+		width: 100%;
+        margin-top: 45px;
+    }
+
+	#nav-hamburger a.icon {
+        right: 45%;
+        top: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    #nav-line{
+        display: none;
+    }
+
+    #nav-hamburger {
+        overflow: hidden;
+    }
+      
+    #nav-hamburger #hamLinks {
+        display: none;
+		width: 100%;
+    }
+      
+    #hamLinks a.ham-link {
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 13px;
+        display: block;
+    }
+
+	#hamLinks a.ham-link:focus{
+		color: #212529;
+	}
+
+	#hamLinks a.ham-link:hover {
+        color: #212529;
+    }
+
+	#hamLinks li{
+		border-bottom: 1px solid #ffdc31;
+        list-style: none;
+        text-align: center;
+	}
+
+	#hamLinks li:last-child{
+		border-bottom: unset;
+	}
+
+	#hamLinksr li:first-child:hover{
+		border-radius: 10px 10px 0 0;
+	}
+
+	#hamLinks li:last-child:hover{
+		border-radius: 0 0 10px 10px;
+	}
+
+	#nav-hamburger a.icon {
+        position: absolute;
+    }
+
+    #nav-hamburger a.icon i{
+        font-size: 25px;
+        color: #212529 !important;
+    }
+
+	#posts .separate_post{
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (min-width: 1025px){
+    #nav-hamburger{
+        display: none;
+    }
+}
